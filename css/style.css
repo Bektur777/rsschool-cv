@@ -1,0 +1,354 @@
+body {
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
+}
+
+.header {
+    background: #F1F7E2;
+    padding-top: 30px;
+    padding-bottom: 180px;
+}
+
+.logo {
+    width: 120px;
+    height: 50px;
+}
+
+header a {
+    color: #000;
+    padding-top: 40px;
+}
+
+.menu {
+    display: flex;
+    margin-left: 320px;
+}
+
+.menu li a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu li a:hover {
+    font-weight: 500;
+}
+
+.menu li {
+    display: block;
+    margin-right: 50px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 165px;
+}
+
+.avatar {
+    width: 560px;
+    height: 370px;
+    background: url(249482360_602791400874770_3038570465103934760_n.jpg);
+    filter: drop-shadow(8px 10px 12px rgba(0, 0, 0, 0.25));
+}
+
+.offer {
+    margin-top: 45px;
+}
+
+.intro {
+    width: 380px;
+    margin: 40px 0px;
+    line-height: 155%;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    border: 1px solid #000000;
+    border-radius: 12px;
+    width: 240px;
+    height: 58px;
+    font-weight: 500;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+.btn:hover {
+    font-weight: 600;
+}
+
+.summary {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.summary-title-text {
+    font-weight: 500;
+}
+
+.summary-title {
+    width: 380px; 
+    line-height: 155%;
+}
+
+.getting-experience {
+    width: 600px;
+    height: 399px;
+    background: #99F0A22E;
+    padding: 45px 45px;
+    border-radius: 18px;
+}
+
+.wrapper-summary {
+    margin-top: 70px;
+}
+
+.experience-title {
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.experience-text li {
+    margin-bottom: 30px;
+    line-height: 155%;
+    font-weight: 400;
+    margin-left: 13px;
+}
+
+.favorites {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.favorites-things {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.icon-things {
+    width: 85px;
+}
+
+.thing-title {
+    text-align: center;
+}
+
+.skills {
+    margin-top: 100px;
+}
+
+.my-skills {
+    text-align: right;
+}
+
+.wrapper-hard-skill {
+    margin-top: 10px;
+}
+
+.hard-skill {
+    display: flex;
+    margin-bottom: 11px;
+}
+
+.hard-skill-icon {
+    width: 60px;
+}
+
+.hard-skill-title {
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+.skill {
+    background: #99F0A22E;
+    width: 540px;
+    height: 350px;
+    border-radius: 18px;
+    padding: 45px 45px;
+}
+
+.skills-title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.wrapper-skills {
+    margin-top: 70px;
+}
+
+.list-skill li {
+    margin-bottom: 20px;
+    margin-left: 13px;
+    margin-right: 55px;
+    font-weight: 400;
+}
+
+.list-of-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.code-example {
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.code {
+    background: #F2F2F280;
+    width: 1111px;
+    height: 1020px;
+    border-radius: 20px;
+    letter-spacing: 0.04em;
+    padding: 45px 45px;
+}
+
+.education {
+    margin-bottom: 100px;
+}
+
+.education-languages {
+    text-align: right;
+    margin-bottom: 70px;
+}
+
+.wrapper-education {
+    display: flex;
+    justify-content: space-between;
+}
+
+.languages {
+    padding-top: 45px;
+    background: #99F0A22E;
+    width: 445px;
+    height: 300px;
+    border-radius: 55px;
+}
+
+.language {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.list-of-languages li{
+    display: block;
+    margin-bottom: 17px;
+    text-decoration: none;
+    margin-left: 45px;
+    font-weight: 500;
+}
+
+.inai {
+    width: 60px;
+    margin-right: 40px;
+}
+
+.universitet {
+    width: 350px;
+    display: flex;
+}
+
+.department {
+    color: #ACACAC;
+    font-size: 14px;
+}
+
+.graduation {
+    display: flex;
+    margin-top: 20px;
+}
+
+.graduation-icon {
+    width: 60px;
+    margin-right: 40px;
+}
+
+.education-institute {
+    margin-top: 24px;
+    padding: 53px 53px;
+    border: 1px solid #000;
+    border-radius: 55px;
+    width: 590px;
+    height: 250px;
+}
+
+.footer {
+    background: #F9F9F9;
+    height: 400px;
+    padding-top: 70px;
+}
+
+.wrapper-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rsschool {
+    margin-top: 70px;
+    width: 313px;
+    height: 117px;
+}
+
+.contact-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.contact {
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.contact-title {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.github-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.github-block {
+    display: flex;
+}
+
+.github-title {
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.github-title:hover {
+    font-weight: 500;
+}
+
+.year {
+    font-weight: 500;
+    text-align: right;
+}
